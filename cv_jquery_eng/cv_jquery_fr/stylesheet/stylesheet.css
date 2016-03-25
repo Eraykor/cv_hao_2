@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "BebasRegular";
+    src: url("../fonts/BebasNeue Regular.otf");
+}
+
+@font-face {
+    font-family: "Dinlight";
+    src: url("../fonts/din_light.ttf");
+}
+
+@font-face {
+    font-family: "Fraise";
+    src: url("../fonts/College Boy.otf");
+}
+
+.container-fluid {
+    height: 1263px;
+}
+
+.menu-left {
+    background-color: black;
+    height: 100%;
+}
+
+.rond {
+    border-radius: 50%/50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.id_hao {
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%/50%;
+    margin: auto;
+}
+
+.text1 {
+    text-align: center;
+    font-family: 'BebasRegular';
+    font-size: 4em;
+}
+
+.text2 {
+    margin-top: -5%;
+    text-align: center;
+    font-family: 'Dinlight';
+    font-size: 2em;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-top: -7%;
+}
+
+.menu {
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 2em;
+    font-family: 'BebasRegular';
+}
+
+.menu:hover {
+    color: darkred;
+}
+
+.first {
+    margin-top: 8%;
+}
+
+.contact {
+    font-family: 'BebasRegular';
+    font-size: 3em;
+}
+
+.contact_div {
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+}
+
+.contact_div hr {
+    width: 50%;
+    margin-top: -2%;
+}
+
+
+.adresse_div {
+    text-align: center;
+    color: white;
+    font-family: 'Dinlight';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.phone {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.inline {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.email {
+    color: white;
+    font-size: 3em;
+}
+
+.tel, .mail {
+    display: inline;
+    color: white;
+    font-family: 'Dinlight';
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.hrmid {
+    width: 50%;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#view {
+    height: 1307px;
+    overflow: scroll;
+}
+
+/* CSS de Home */
+
+.title_presentation {
+    font-size: 3em;
+    font-family: 'BebasRegular';
+    margin-top: 3%;
+}
+
+.title_t {
+    font-size: 6em;
+    font-family: 'Fraise';
+    margin-top: 3%;
+}
+
+.text_presentation {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Dinlight';
+}
+
+.bloc_color {
+    padding: 2%;
+    margin: auto;
+    width: 100%;
+    font-family: 'Dinlight';
+}
+
+.bloc_color_main {
+    background-color: black;
+    padding: 2%;
+    border: 1px solid black;
+    margin: auto;
+    color: white;
+    border-radius: 10px/10px;
+    margin-bottom: 3%;
+    width: 60%;
+    font-family: 'Dinlight';
+}
+
+.panda {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.panda1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 215px;
+    height: 200px;
+}
+
+.panda2 {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 230px;
+    height: 200px;
+}
+
+.panda3 {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 280px;
+    height: 200px;
+}
+
+.subtitle {
+    font-size: 2.5em;
+    font-family: 'BebasRegular';
+    margin-top: 15%;
+}
+
+/* CSS de skills */
+
+.progress {
+    width: 50%;
+    margin: auto;
+}
+
+.info {
+    font-family: 'BebasRegular';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.icone {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+/* CSS formation */
+
+.date {
+    font-family: 'Dinlight';
+    font-size: 0.6em;
+}
+
+.subtext {
+    font-family: 'Dinlight';
+    font-size: 1em;
+}
+
+.offset {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.imprimante {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.pexp_img {
+    display: block;
+    margin: auto;
+    margin-bottom: -25px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.dropdown {
+    margin-top: 10px;
+}
